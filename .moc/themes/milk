@@ -1,0 +1,39 @@
+# MOC theme
+# Milk
+# by Pavel Pisakov
+
+background = white white
+frame = black white
+window_title = black white
+directory = black white
+selected_directory = white black
+playlist = black white
+selected_playlist = white black
+file = black white
+selected_file = white black
+marked_file = magenta white
+marked_selected_file = magenta black
+info = black white
+selected_info = black white
+marked_info = black white
+marked_selected_info = white black
+status = black white
+title = black white
+state = black white
+current_time = black white
+time_left = black white
+total_time = black white
+time_total_frames = black white
+sound_parameters = black white
+legend = black white
+disabled = black white dim
+enabled = black white bold
+empty_mixer_bar = black white
+filled_mixer_bar = white black
+empty_time_bar = black white
+filled_time_bar = white black
+entry = black white
+entry_title = white black
+error = red white
+message = black white
+plist_time = black white
