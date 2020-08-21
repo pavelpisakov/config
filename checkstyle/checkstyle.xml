@@ -129,7 +129,14 @@
     <!-- See https://checkstyle.org/config_coding.html -->
     <module name="EmptyStatement"/>
     <module name="EqualsHashCode"/>
-    <module name="HiddenField"/>
+    
+    <!-- Checks that a local variable or a parameter does not shadow a field that is defined in the same class.
+         Allow constructor parameters and setters -->
+    <module name="HiddenField">
+        <property name="ignoreConstructorParameter" value="true"/>
+        <property name="ignoreSetter" value="true"/>
+    </module>
+    
     <module name="IllegalInstantiation"/>
     <module name="InnerAssignment"/>
     <module name="MagicNumber"/>
